@@ -1,0 +1,1571 @@
+{
+    "id": "ziye.app.sub",
+    "name": "ziye 脚本订阅",
+    "author": "@ZIYE",
+    "icon": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/ziye.png",
+    "repo": "https://github.com/ziye888",
+    "apps": [{
+            "id": "qczjspeed",
+            "name": "汽车之家极速版",
+            "keys": ["GetUserInfoheader", "activitybody", "addCoinbody", "addCoin2body", "GetUserInfoheader2", "activitybody2", "addCoinbody2", "addCoin2body2", "GetUserInfoheader3", "activitybody3", "addCoinbody3", "addCoin2body3", "GetUserInfoheader4", "activitybody4", "addCoinbody4", "addCoin2body4", "GetUserInfoheader5", "activitybody5", "addCoinbody5", "addCoin2body5", "GetUserInfoheader6", "activitybody6", "addCoinbody6", "addCoin2body6", "GetUserInfoheader7", "activitybody7", "addCoinbody7", "addCoin2body7", "GetUserInfoheader8", "activitybody8", "addCoinbody8", "addCoin2body8", "GetUserInfoheader9", "activitybody9", "addCoinbody9", "addCoin2body9", "GetUserInfoheader10", "activitybody10", "addCoinbody10", "addCoin2body10", "GetUserInfoheader11", "activitybody11", "addCoinbody11", "addCoin2body11", "GetUserInfoheader12", "activitybody12", "addCoinbody12", "addCoin2body12", "GetUserInfoheader13", "activitybody13", "addCoinbody13", "addCoin2body13", "GetUserInfoheader14", "activitybody14", "addCoinbody14", "addCoin2body14", "GetUserInfoheader15", "activitybody15", "addCoinbody15", "addCoin2body15", "GetUserInfoheader16", "activitybody16", "addCoinbody16", "addCoin2body16", "GetUserInfoheader17", "activitybody17", "addCoinbody17", "addCoin2body17", "GetUserInfoheader18", "activitybody18", "addCoinbody18", "addCoin2body18", "GetUserInfoheader19", "activitybody19", "addCoinbody19", "addCoin2body19", "GetUserInfoheader20", "activitybody20", "addCoinbody20", "addCoin2body20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "qczjSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "qczjCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "qczjXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "qczjXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "qczjnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "qczjnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "qczjMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qczjspeed.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/task/master/qczj.png", "https://raw.githubusercontent.com/Orz-3/task/master/qczj.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qczjspeed.js"
+        },
+        {
+            "id": "xiaole",
+            "name": "小乐",
+            "keys": ["xiaoleurl", "xiaolehd", "xiaoleurl2", "xiaolehd2", "xiaoleurl3", "xiaolehd3", "xiaoleurl4", "xiaolehd4", "xiaoleurl5", "xiaolehd5", "xiaoleurl6", "xiaolehd6", "xiaoleurl7", "xiaolehd7", "xiaoleurl8", "xiaolehd8", "xiaoleurl9", "xiaolehd9", "xiaoleurl10", "xiaolehd10"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "xlSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+                },
+                {
+                    "id": "xlCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xiaole.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xiaole.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xiaole.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xiaole.js"
+        },
+        {
+            "id": "iboxpay",
+            "name": "笑谱",
+            "keys": ["refreshtoken", "iboxpayvideoheader", "iboxpayvideobody", "refreshtoken2", "iboxpayvideoheader2", "iboxpayvideobody2", "refreshtoken3", "iboxpayvideoheader3", "iboxpayvideobody3", "refreshtoken4", "iboxpayvideoheader4", "iboxpayvideobody4", "refreshtoken5", "iboxpayvideoheader5", "iboxpayvideobody5", "refreshtoken6", "iboxpayvideoheader6", "iboxpayvideobody6", "refreshtoken7", "iboxpayvideoheader7", "iboxpayvideobody7", "refreshtoken8", "iboxpayvideoheader8", "iboxpayvideobody8", "refreshtoken9", "iboxpayvideoheader9", "iboxpayvideobody9", "refreshtoken10", "iboxpayvideoheader10", "iboxpayvideobody10", "refreshtoken11", "iboxpayvideoheader11", "iboxpayvideobody11", "refreshtoken12", "iboxpayvideoheader12", "iboxpayvideobody12", "refreshtoken13", "iboxpayvideoheader13", "iboxpayvideobody13", "refreshtoken14", "iboxpayvideoheader14", "iboxpayvideobody14", "refreshtoken15", "iboxpayvideoheader15", "iboxpayvideobody15", "refreshtoken16", "iboxpayvideoheader16", "iboxpayvideobody16", "refreshtoken17", "iboxpayvideoheader17", "iboxpayvideobody17", "refreshtoken18", "iboxpayvideoheader18", "iboxpayvideobody18", "refreshtoken19", "iboxpayvideoheader19", "iboxpayvideobody19", "refreshtoken20", "iboxpayvideoheader20", "iboxpayvideobody20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "iboxpaySuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+                },
+                {
+                    "id": "iboxpayCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "iboxpayLIVE",
+                    "name": "任务控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "默认为1开启直播，视频请获取ck，设置2关闭视频，新人请设置888"
+                },
+                {
+                    "id": "iboxpayCASH",
+                    "name": "提现标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0不提现，可设置 0 1 15 30 100 888 设置888，由大至小循环提现 "
+                },
+                {
+                    "id": "iboxpayphone",
+                    "name": "手机号",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "请输入完整手机号"
+                },
+                {
+                    "id": "iboxpaysms",
+                    "name": "验证码",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "输入短信验证码，默认为0，不启动获取token功能"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/iboxpay.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/iboxpay.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/iboxpay.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/iboxpay.js"
+        },
+        {
+            "id": "flw",
+            "name": "返利网",
+            "keys": ["flwurl", "flwheader", "flwspbody", "flwqwbody", "flwydbody", "flwurl2", "flwheader2", "flwspbody2", "flwqwbody2", "flwydbody2", "flwurl3", "flwheader3", "flwspbody3", "flwqwbody3", "flwydbody3", "flwurl4", "flwheader4", "flwspbody4", "flwqwbody4", "flwydbody4", "flwurl5", "flwheader5", "flwspbody5", "flwqwbody5", "flwydbody5", "flwurl6", "flwheader6", "flwspbody6", "flwqwbody6", "flwydbody6", "flwurl7", "flwheader7", "flwspbody7", "flwqwbody7", "flwydbody7", "flwurl8", "flwheader8", "flwspbody8", "flwqwbody8", "flwydbody8", "flwurl9", "flwheader9", "flwspbody9", "flwqwbody9", "flwydbody9", "flwurl10", "flwheader10", "flwspbody10", "flwqwbody10", "flwydbody10", "flwurl11", "flwheader11", "flwspbody11", "flwqwbody11", "flwydbody11", "flwurl12", "flwheader12", "flwspbody12", "flwqwbody12", "flwydbody12", "flwurl13", "flwheader13", "flwspbody13", "flwqwbody13", "flwydbody13", "flwurl14", "flwheader14", "flwspbody14", "flwqwbody14", "flwydbody14", "flwurl15", "flwheader15", "flwspbody15", "flwqwbody15", "flwydbody15", "flwurl16", "flwheader16", "flwspbody16", "flwqwbody16", "flwydbody16", "flwurl17", "flwheader17", "flwspbody17", "flwqwbody17", "flwydbody17", "flwurl18", "flwheader18", "flwspbody18", "flwqwbody18", "flwydbody18", "flwurl19", "flwheader19", "flwspbody19", "flwqwbody19", "flwydbody19", "flwurl20", "flwheader20", "flwspbody20", "flwqwbody20", "flwydbody20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "flwSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "flwCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "flwCASH",
+                    "name": "天天领现金提现标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "默认0，设置0.3及以上时启动天天领现金模块，且大于等于此值时自动提现"
+                },
+                {
+                    "id": "flwDHCASH",
+                    "name": "兑换标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "默认0，可设置设置 0 5 50 100"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js"
+        },
+        {
+            "id": "githubAC",
+            "name": "githubAC",
+            "keys": ["githubACname", "githubACurl", "githubACheader", "githubACbody", "HHA", "HHB", "HHC", "HHD", "HHE", "HHF", "HHG", "HHH", "HHI", "HHJ", "HHK", "HHL", "MMA", "MMB", "MMC", "MMD", "MME", "MMF", "MMG", "MMH", "MMI", "MMJ", "MMK", "MML", "githubACname2", "githubACurl2", "githubACheader2", "githubACbody2", "HHA2", "HHB2", "HHC2", "HHD2", "HHE2", "HHF2", "HHG2", "HHH2", "HHI2", "HHJ2", "HHK2", "HHL2", "MMA2", "MMB2", "MMC2", "MMD2", "MME2", "MMF2", "MMG2", "MMH2", "MMI2", "MMJ2", "MMK2", "MML2", "githubACname3", "githubACurl3", "githubACheader3", "githubACbody3", "HHA3", "HHB3", "HHC3", "HHD3", "HHE3", "HHF3", "HHG3", "HHH3", "HHI3", "HHJ3", "HHK3", "HHL3", "MMA3", "MMB3", "MMC3", "MMD3", "MME3", "MMF3", "MMG3", "MMH3", "MMI3", "MMJ3", "MMK3", "MML3", "githubACname4", "githubACurl4", "githubACheader4", "githubACbody4", "HHA4", "HHB4", "HHC4", "HHD4", "HHE4", "HHF4", "HHG4", "HHH4", "HHI4", "HHJ4", "HHK4", "HHL4", "MMA4", "MMB4", "MMC4", "MMD4", "MME4", "MMF4", "MMG4", "MMH4", "MMI4", "MMJ4", "MMK4", "MML4", "githubACname5", "githubACurl5", "githubACheader5", "githubACbody5", "HHA5", "HHB5", "HHC5", "HHD5", "HHE5", "HHF5", "HHG5", "HHH5", "HHI5", "HHJ5", "HHK5", "HHL5", "MMA5", "MMB5", "MMC5", "MMD5", "MME5", "MMF5", "MMG5", "MMH5", "MMI5", "MMJ5", "MMK5", "MML5", "githubACname6", "githubACurl6", "githubACheader6", "githubACbody6", "HHA6", "HHB6", "HHC6", "HHD6", "HHE6", "HHF6", "HHG6", "HHH6", "HHI6", "HHJ6", "HHK6", "HHL6", "MMA6", "MMB6", "MMC6", "MMD6", "MME6", "MMF6", "MMG6", "MMH6", "MMI6", "MMJ6", "MMK6", "MML6", "githubACname7", "githubACurl7", "githubACheader7", "githubACbody7", "HHA7", "HHB7", "HHC7", "HHD7", "HHE7", "HHF7", "HHG7", "HHH7", "HHI7", "HHJ7", "HHK7", "HHL7", "MMA7", "MMB7", "MMC7", "MMD7", "MME7", "MMF7", "MMG7", "MMH7", "MMI7", "MMJ7", "MMK7", "MML7", "githubACname8", "githubACurl8", "githubACheader8", "githubACbody8", "HHA8", "HHB8", "HHC8", "HHD8", "HHE8", "HHF8", "HHG8", "HHH8", "HHI8", "HHJ8", "HHK8", "HHL8", "MMA8", "MMB8", "MMC8", "MMD8", "MME8", "MMF8", "MMG8", "MMH8", "MMI8", "MMJ8", "MMK8", "MML8", "githubACname9", "githubACurl9", "githubACheader9", "githubACbody9", "HHA9", "HHB9", "HHC9", "HHD9", "HHE9", "HHF9", "HHG9", "HHH9", "HHI9", "HHJ9", "HHK9", "HHL9", "MMA9", "MMB9", "MMC9", "MMD9", "MME9", "MMF9", "MMG9", "MMH9", "MMI9", "MMJ9", "MMK9", "MML9", "githubACname10", "githubACurl10", "githubACheader10", "githubACbody10", "HHA10", "HHB10", "HHC10", "HHD10", "HHE10", "HHF10", "HHG10", "HHH10", "HHI10", "HHJ10", "HHK10", "HHL10", "MMA10", "MMB10", "MMC10", "MMD10", "MME10", "MMF10", "MMG10", "MMH10", "MMI10", "MMJ10", "MMK10", "MML10"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "githubACSuffix",
+                    "name": "当前js",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取js  ck的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "githubACCount",
+                    "name": "js个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个js，根据抓取的js数据个数来设值"
+                },
+                {
+                    "id": "githubACXXX",
+                    "name": "即时触发",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "可设置0 不启动、js序号数 指定哪个js任务随githubAC运行而启动、 888 全部js启动"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/githubAC.js",
+            "icons": ["https://github.githubassets.com/images/modules/site/home/astro-mona.jpg", "https://github.githubassets.com/images/modules/site/home/astro-mona.jpg"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/githubAC.js"
+        },
+        {
+            "id": "zhima",
+            "name": "芝嫲视频",
+            "keys": ["zhimabody", "zhimatxbody", "zhimabody2", "zhimatxbody2", "zhimabody3", "zhimatxbody3", "zhimabody4", "zhimatxbody4", "zhimabody5", "zhimatxbody5", "zhimabody6", "zhimatxbody6", "zhimabody7", "zhimatxbody7", "zhimabody8", "zhimatxbody8", "zhimabody9", "zhimatxbody9", "zhimabody10", "zhimatxbody10", "zhimabody11", "zhimatxbody11", "zhimabody12", "zhimatxbody12", "zhimabody13", "zhimatxbody13", "zhimabody14", "zhimatxbody14", "zhimabody15", "zhimatxbody15", "zhimabody16", "zhimatxbody16", "zhimabody17", "zhimatxbody17", "zhimabody18", "zhimatxbody18", "zhimabody19", "zhimatxbody19", "zhimabody20", "zhimatxbody20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "zhimaSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "zhimaCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "zhimaCASH",
+                    "name": "提现标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0不提现，可设置 0 0.3 0.5 1 5 10 30 50 100 等"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/zhima.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/zhima.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/zhima.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/zhima.js"
+        },
+        {
+            "id": "QQread",
+            "name": "QQ阅读APP",
+            "keys": ["QQreadurl", "QQreadurl2", "QQreadurl3", "QQreadurl4", "QQreadurl5", "QQreadurl6", "QQreadurl7", "QQreadurl8", "QQreadurl9", "QQreadurl10", "QQreadurl11", "QQreadurl12", "QQreadurl13", "QQreadurl14", "QQreadurl15", "QQreadurl16", "QQreadurl17", "QQreadurl18", "QQreadurl19", "QQreadurl20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "QQreadSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "QQreadCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/QQread.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/QQread.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/QQread.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/QQread.js"
+        },
+        {
+            "id": "bububao",
+            "name": "步步宝APP",
+            "keys": ["bububaotoken", "bububaotoken2", "bububaotoken3", "bububaotoken4", "bububaotoken5", "bububaotoken6", "bububaotoken7", "bububaotoken8", "bububaotoken9", "bububaotoken10", "bububaotoken11", "bububaotoken12", "bububaotoken13", "bububaotoken14", "bububaotoken15", "bububaotoken16", "bububaotoken17", "bububaotoken18", "bububaotoken19", "bububaotoken20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "bububaoSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "bububaoCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "bububaoCASH",
+                    "name": "提现标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0不提现，可设置 0 0.3 50 100 200 888  设置888则由上至下循环提现，设置CASH为3000，则在23.59分执行3秒的循环-以此类推，且在0点后执行1次50元提现，请提前手动运行或者设置好定时"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/bububao.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/bububao.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/bububao.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/bububao.js"
+        },
+        {
+            "id": "yuedongzu",
+            "name": "悦动族APP",
+            "keys": ["yuedongzutoken", "yuedongzutoken2", "yuedongzutoken3", "yuedongzutoken4", "yuedongzutoken5", "yuedongzutoken6", "yuedongzutoken7", "yuedongzutoken8", "yuedongzutoken9", "yuedongzutoken10", "yuedongzutoken11", "yuedongzutoken12", "yuedongzutoken13", "yuedongzutoken14", "yuedongzutoken15", "yuedongzutoken16", "yuedongzutoken17", "yuedongzutoken18", "yuedongzutoken19", "yuedongzutoken20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "yuedongzuSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "yuedongzuCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "yuedongzuCASH",
+                    "name": "提现标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0不提现，可设置 0 0.3 1 5 50 100 200 888  设置888由上至下循环提现 "
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yuedongzu.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yuedongzu.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yuedongzu.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yuedongzu.js"
+        },
+        {
+            "id": "qmyd",
+            "name": "全民悦动APP",
+            "keys": ["qmydtoken", "qmydtoken2", "qmydtoken3", "qmydtoken4", "qmydtoken5", "qmydtoken6", "qmydtoken7", "qmydtoken8", "qmydtoken9", "qmydtoken10", "qmydtoken11", "qmydtoken12", "qmydtoken13", "qmydtoken14", "qmydtoken15", "qmydtoken16", "qmydtoken17", "qmydtoken18", "qmydtoken19", "qmydtoken20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "qmydSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "qmydCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "qmydCASH",
+                    "name": "提现标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0不提现，可设置 0 0.3 1 10 20 30 100 200 300 888  设置888由上至下循环提现 "
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qmyd.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qmyd.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qmyd.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/qmyd.js"
+        }, {
+            "id": "shuqi",
+            "name": "书旗小说APP",
+            "keys": ["shuqiuserurl", "shuqisyurl", "shuqisybody", "shuqispbody", "shuqiscbody", "shuqiydbody", "shuqiqdbody", "shuqirwbody", "shuqifxbody", "shuqisprwurl", "shuqijlbody", "shuqisqjlbody", "shuqicjyurl", "shuqicjcsbody", "shuqicjbody", "shuqijsspbody", "shuqijsydurl", "shuqijsydbody", "shuqijsqdbody", "shuqijsqdspyurl", "shuqijsqdspbody", "shuqijsrwbody", "shuqijsfxbody", "shuqijsbookurl", "shuqijsbookbody", "shuqijssprwurl", "shuqiuserurl2", "shuqisyurl2", "shuqisybody2", "shuqispbody2", "shuqiscbody2", "shuqiydbody2", "shuqiqdbody2", "shuqirwbody2", "shuqifxbody2", "shuqisprwurl2", "shuqijlbody2", "shuqisqjlbody2", "shuqicjyurl2", "shuqicjcsbody2", "shuqicjbody2", "shuqijsspbody2", "shuqijsydurl2", "shuqijsydbody2", "shuqijsqdbody2", "shuqijsqdspyurl2", "shuqijsqdspbody2", "shuqijsrwbody2", "shuqijsfxbody2", "shuqijsbookurl2", "shuqijsbookbody2", "shuqijssprwurl2", "shuqiuserurl3", "shuqisyurl3", "shuqisybody3", "shuqispbody3", "shuqiscbody3", "shuqiydbody3", "shuqiqdbody3", "shuqirwbody3", "shuqifxbody3", "shuqisprwurl3", "shuqijlbody3", "shuqisqjlbody3", "shuqicjyurl3", "shuqicjcsbody3", "shuqicjbody3", "shuqijsspbody3", "shuqijsydurl3", "shuqijsydbody3", "shuqijsqdbody3", "shuqijsqdspyurl3", "shuqijsqdspbody3", "shuqijsrwbody3", "shuqijsfxbody3", "shuqijsbookurl3", "shuqijsbookbody3", "shuqijssprwurl3", "shuqiuserurl4", "shuqisyurl4", "shuqisybody4", "shuqispbody4", "shuqiscbody4", "shuqiydbody4", "shuqiqdbody4", "shuqirwbody4", "shuqifxbody4", "shuqisprwurl4", "shuqijlbody4", "shuqisqjlbody4", "shuqicjyurl4", "shuqicjcsbody4", "shuqicjbody4", "shuqijsspbody4", "shuqijsydurl4", "shuqijsydbody4", "shuqijsqdbody4", "shuqijsqdspyurl4", "shuqijsqdspbody4", "shuqijsrwbody4", "shuqijsfxbody4", "shuqijsbookurl4", "shuqijsbookbody4", "shuqijssprwurl4", "shuqiuserurl5", "shuqisyurl5", "shuqisybody5", "shuqispbody5", "shuqiscbody5", "shuqiydbody5", "shuqiqdbody5", "shuqirwbody5", "shuqifxbody5", "shuqisprwurl5", "shuqijlbody5", "shuqisqjlbody5", "shuqicjyurl5", "shuqicjcsbody5", "shuqicjbody5", "shuqijsspbody5", "shuqijsydurl5", "shuqijsydbody5", "shuqijsqdbody5", "shuqijsqdspyurl5", "shuqijsqdspbody5", "shuqijsrwbody5", "shuqijsfxbody5", "shuqijsbookurl5", "shuqijsbookbody5", "shuqijssprwurl5", "shuqiuserurl6", "shuqisyurl6", "shuqisybody6", "shuqispbody6", "shuqiscbody6", "shuqiydbody6", "shuqiqdbody6", "shuqirwbody6", "shuqifxbody6", "shuqisprwurl6", "shuqijlbody6", "shuqisqjlbody6", "shuqicjyurl6", "shuqicjcsbody6", "shuqicjbody6", "shuqijsspbody6", "shuqijsydurl6", "shuqijsydbody6", "shuqijsqdbody6", "shuqijsqdspyurl6", "shuqijsqdspbody6", "shuqijsrwbody6", "shuqijsfxbody6", "shuqijsbookurl6", "shuqijsbookbody6", "shuqijssprwurl6", "shuqiuserurl7", "shuqisyurl7", "shuqisybody7", "shuqispbody7", "shuqiscbody7", "shuqiydbody7", "shuqiqdbody7", "shuqirwbody7", "shuqifxbody7", "shuqisprwurl7", "shuqijlbody7", "shuqisqjlbody7", "shuqicjyurl7", "shuqicjcsbody7", "shuqicjbody7", "shuqijsspbody7", "shuqijsydurl7", "shuqijsydbody7", "shuqijsqdbody7", "shuqijsqdspyurl7", "shuqijsqdspbody7", "shuqijsrwbody7", "shuqijsfxbody7", "shuqijsbookurl7", "shuqijsbookbody7", "shuqijssprwurl7", "shuqiuserurl8", "shuqisyurl8", "shuqisybody8", "shuqispbody8", "shuqiscbody8", "shuqiydbody8", "shuqiqdbody8", "shuqirwbody8", "shuqifxbody8", "shuqisprwurl8", "shuqijlbody8", "shuqisqjlbody8", "shuqicjyurl8", "shuqicjcsbody8", "shuqicjbody8", "shuqijsspbody8", "shuqijsydurl8", "shuqijsydbody8", "shuqijsqdbody8", "shuqijsqdspyurl8", "shuqijsqdspbody8", "shuqijsrwbody8", "shuqijsfxbody8", "shuqijsbookurl8", "shuqijsbookbody8", "shuqijssprwurl8", "shuqiuserurl9", "shuqisyurl9", "shuqisybody9", "shuqispbody9", "shuqiscbody9", "shuqiydbody9", "shuqiqdbody9", "shuqirwbody9", "shuqifxbody9", "shuqisprwurl9", "shuqijlbody9", "shuqisqjlbody9", "shuqicjyurl9", "shuqicjcsbody9", "shuqicjbody9", "shuqijsspbody9", "shuqijsydurl9", "shuqijsydbody9", "shuqijsqdbody9", "shuqijsqdspyurl9", "shuqijsqdspbody9", "shuqijsrwbody9", "shuqijsfxbody9", "shuqijsbookurl9", "shuqijsbookbody9", "shuqijssprwurl9", "shuqiuserurl10", "shuqisyurl10", "shuqisybody10", "shuqispbody10", "shuqiscbody10", "shuqiydbody10", "shuqiqdbody10", "shuqirwbody10", "shuqifxbody10", "shuqisprwurl10", "shuqijlbody10", "shuqisqjlbody10", "shuqicjyurl10", "shuqicjcsbody10", "shuqicjbody10", "shuqijsspbody10", "shuqijsydurl10", "shuqijsydbody10", "shuqijsqdbody10", "shuqijsqdspyurl10", "shuqijsqdspbody10", "shuqijsrwbody10", "shuqijsfxbody10", "shuqijsbookurl10", "shuqijsbookbody10", "shuqijssprwurl10", "shuqiuserurl11", "shuqisyurl11", "shuqisybody11", "shuqispbody11", "shuqiscbody11", "shuqiydbody11", "shuqiqdbody11", "shuqirwbody11", "shuqifxbody11", "shuqisprwurl11", "shuqijlbody11", "shuqisqjlbody11", "shuqicjyurl11", "shuqicjcsbody11", "shuqicjbody11", "shuqijsspbody11", "shuqijsydurl11", "shuqijsydbody11", "shuqijsqdbody11", "shuqijsqdspyurl11", "shuqijsqdspbody11", "shuqijsrwbody11", "shuqijsfxbody11", "shuqijsbookurl11", "shuqijsbookbody11", "shuqijssprwurl11", "shuqiuserurl12", "shuqisyurl12", "shuqisybody12", "shuqispbody12", "shuqiscbody12", "shuqiydbody12", "shuqiqdbody12", "shuqirwbody12", "shuqifxbody12", "shuqisprwurl12", "shuqijlbody12", "shuqisqjlbody12", "shuqicjyurl12", "shuqicjcsbody12", "shuqicjbody12", "shuqijsspbody12", "shuqijsydurl12", "shuqijsydbody12", "shuqijsqdbody12", "shuqijsqdspyurl12", "shuqijsqdspbody12", "shuqijsrwbody12", "shuqijsfxbody12", "shuqijsbookurl12", "shuqijsbookbody12", "shuqijssprwurl12", "shuqiuserurl13", "shuqisyurl13", "shuqisybody13", "shuqispbody13", "shuqiscbody13", "shuqiydbody13", "shuqiqdbody13", "shuqirwbody13", "shuqifxbody13", "shuqisprwurl13", "shuqijlbody13", "shuqisqjlbody13", "shuqicjyurl13", "shuqicjcsbody13", "shuqicjbody13", "shuqijsspbody13", "shuqijsydurl13", "shuqijsydbody13", "shuqijsqdbody13", "shuqijsqdspyurl13", "shuqijsqdspbody13", "shuqijsrwbody13", "shuqijsfxbody13", "shuqijsbookurl13", "shuqijsbookbody13", "shuqijssprwurl13", "shuqiuserurl14", "shuqisyurl14", "shuqisybody14", "shuqispbody14", "shuqiscbody14", "shuqiydbody14", "shuqiqdbody14", "shuqirwbody14", "shuqifxbody14", "shuqisprwurl14", "shuqijlbody14", "shuqisqjlbody14", "shuqicjyurl14", "shuqicjcsbody14", "shuqicjbody14", "shuqijsspbody14", "shuqijsydurl14", "shuqijsydbody14", "shuqijsqdbody14", "shuqijsqdspyurl14", "shuqijsqdspbody14", "shuqijsrwbody14", "shuqijsfxbody14", "shuqijsbookurl14", "shuqijsbookbody14", "shuqijssprwurl14", "shuqiuserurl15", "shuqisyurl15", "shuqisybody15", "shuqispbody15", "shuqiscbody15", "shuqiydbody15", "shuqiqdbody15", "shuqirwbody15", "shuqifxbody15", "shuqisprwurl15", "shuqijlbody15", "shuqisqjlbody15", "shuqicjyurl15", "shuqicjcsbody15", "shuqicjbody15", "shuqijsspbody15", "shuqijsydurl15", "shuqijsydbody15", "shuqijsqdbody15", "shuqijsqdspyurl15", "shuqijsqdspbody15", "shuqijsrwbody15", "shuqijsfxbody15", "shuqijsbookurl15", "shuqijsbookbody15", "shuqijssprwurl15", "shuqiuserurl16", "shuqisyurl16", "shuqisybody16", "shuqispbody16", "shuqiscbody16", "shuqiydbody16", "shuqiqdbody16", "shuqirwbody16", "shuqifxbody16", "shuqisprwurl16", "shuqijlbody16", "shuqisqjlbody16", "shuqicjyurl16", "shuqicjcsbody16", "shuqicjbody16", "shuqijsspbody16", "shuqijsydurl16", "shuqijsydbody16", "shuqijsqdbody16", "shuqijsqdspyurl16", "shuqijsqdspbody16", "shuqijsrwbody16", "shuqijsfxbody16", "shuqijsbookurl16", "shuqijsbookbody16", "shuqijssprwurl16", "shuqiuserurl17", "shuqisyurl17", "shuqisybody17", "shuqispbody17", "shuqiscbody17", "shuqiydbody17", "shuqiqdbody17", "shuqirwbody17", "shuqifxbody17", "shuqisprwurl17", "shuqijlbody17", "shuqisqjlbody17", "shuqicjyurl17", "shuqicjcsbody17", "shuqicjbody17", "shuqijsspbody17", "shuqijsydurl17", "shuqijsydbody17", "shuqijsqdbody17", "shuqijsqdspyurl17", "shuqijsqdspbody17", "shuqijsrwbody17", "shuqijsfxbody17", "shuqijsbookurl17", "shuqijsbookbody17", "shuqijssprwurl17", "shuqiuserurl18", "shuqisyurl18", "shuqisybody18", "shuqispbody18", "shuqiscbody18", "shuqiydbody18", "shuqiqdbody18", "shuqirwbody18", "shuqifxbody18", "shuqisprwurl18", "shuqijlbody18", "shuqisqjlbody18", "shuqicjyurl18", "shuqicjcsbody18", "shuqicjbody18", "shuqijsspbody18", "shuqijsydurl18", "shuqijsydbody18", "shuqijsqdbody18", "shuqijsqdspyurl18", "shuqijsqdspbody18", "shuqijsrwbody18", "shuqijsfxbody18", "shuqijsbookurl18", "shuqijsbookbody18", "shuqijssprwurl18", "shuqiuserurl19", "shuqisyurl19", "shuqisybody19", "shuqispbody19", "shuqiscbody19", "shuqiydbody19", "shuqiqdbody19", "shuqirwbody19", "shuqifxbody19", "shuqisprwurl19", "shuqijlbody19", "shuqisqjlbody19", "shuqicjyurl19", "shuqicjcsbody19", "shuqicjbody19", "shuqijsspbody19", "shuqijsydurl19", "shuqijsydbody19", "shuqijsqdbody19", "shuqijsqdspyurl19", "shuqijsqdspbody19", "shuqijsrwbody19", "shuqijsfxbody19", "shuqijsbookurl19", "shuqijsbookbody19", "shuqijssprwurl19", "shuqiuserurl20", "shuqisyurl20", "shuqisybody20", "shuqispbody20", "shuqiscbody20", "shuqiydbody20", "shuqiqdbody20", "shuqirwbody20", "shuqifxbody20", "shuqisprwurl20", "shuqijlbody20", "shuqisqjlbody20", "shuqicjyurl20", "shuqicjcsbody20", "shuqicjbody20", "shuqijsspbody20", "shuqijsydurl20", "shuqijsydbody20", "shuqijsqdbody20", "shuqijsqdspyurl20", "shuqijsqdspbody20", "shuqijsrwbody20", "shuqijsfxbody20", "shuqijsbookurl20", "shuqijsbookbody20", "shuqijssprwurl20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "shuqiSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "shuqiCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "shuqiXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "shuqiSC",
+                    "name": "单刷时长控制",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "shuqiTXTX",
+                    "name": "提现提醒",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 设置余额大于多少提醒"
+                },
+                {
+                    "id": "shuqinotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "shuqinotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "shuqiMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js"
+        }, {
+            "id": "jdtq",
+            "name": "简单天气APP",
+            "keys": ["jdtquserbody", "jdtqcoinbody", "jdtqqpbody", "jdtqqp1body", "jdtqqp1fbbody", "jdtqqp2body", "jdtqqp2fbbody", "jdtqqp3body", "jdtqqp3fbbody", "jdtqqp4body", "jdtqcjybody", "jdtqcjbody", "jdtqcjcsbody", "jdtqrwbody", "jdtqspbody", "jdtqspwcbody", "jdtqspwcfbbody", "jdtqqdbody", "jdtqqdfbbody", "jdtqqdwcbody", "jdtqqdwcfbbody", "jdtqtqbody", "jdtqtqwcbody", "jdtqtqwcfbbody", "jdtqxfwcbody", "jdtqxfwcfbbody", "jdtqcfybody", "jdtqcf1body", "jdtqcf1fbbody", "jdtqcf2body", "jdtqcf2fbbody", "jdtqcf3body", "jdtqcf3fbbody", "jdtqcf4body", "jdtqcf4fbbody", "jdtqcf5body", "jdtqcf5fbbody", "jdtqjcybody", "jdtqjcabody", "jdtqjcbbody", "jdtqjclqbody", "jdtquserbody2", "jdtqcoinbody2", "jdtqqpbody2", "jdtqqp1body2", "jdtqqp1fbbody2", "jdtqqp2body2", "jdtqqp2fbbody2", "jdtqqp3body2", "jdtqqp3fbbody2", "jdtqqp4body2", "jdtqcjybody2", "jdtqcjbody2", "jdtqcjcsbody2", "jdtqrwbody2", "jdtqspbody2", "jdtqspwcbody2", "jdtqspwcfbbody2", "jdtqqdbody2", "jdtqqdfbbody2", "jdtqqdwcbody2", "jdtqqdwcfbbody2", "jdtqtqbody2", "jdtqtqwcbody2", "jdtqtqwcfbbody2", "jdtqxfwcbody2", "jdtqxfwcfbbody2", "jdtqcfybody2", "jdtqcf1body2", "jdtqcf1fbbody2", "jdtqcf2body2", "jdtqcf2fbbody2", "jdtqcf3body2", "jdtqcf3fbbody2", "jdtqcf4body2", "jdtqcf4fbbody2", "jdtqcf5body2", "jdtqcf5fbbody2", "jdtqjcybody2", "jdtqjcabody2", "jdtqjcbbody2", "jdtqjclqbody2", "jdtquserbody3", "jdtqcoinbody3", "jdtqqpbody3", "jdtqqp1body3", "jdtqqp1fbbody3", "jdtqqp2body3", "jdtqqp2fbbody3", "jdtqqp3body3", "jdtqqp3fbbody3", "jdtqqp4body3", "jdtqcjybody3", "jdtqcjbody3", "jdtqcjcsbody3", "jdtqrwbody3", "jdtqspbody3", "jdtqspwcbody3", "jdtqspwcfbbody3", "jdtqqdbody3", "jdtqqdfbbody3", "jdtqqdwcbody3", "jdtqqdwcfbbody3", "jdtqtqbody3", "jdtqtqwcbody3", "jdtqtqwcfbbody3", "jdtqxfwcbody3", "jdtqxfwcfbbody3", "jdtqcfybody3", "jdtqcf1body3", "jdtqcf1fbbody3", "jdtqcf2body3", "jdtqcf2fbbody3", "jdtqcf3body3", "jdtqcf3fbbody3", "jdtqcf4body3", "jdtqcf4fbbody3", "jdtqcf5body3", "jdtqcf5fbbody3", "jdtqjcybody3", "jdtqjcabody3", "jdtqjcbbody3", "jdtqjclqbody3", "jdtquserbody4", "jdtqcoinbody4", "jdtqqpbody4", "jdtqqp1body4", "jdtqqp1fbbody4", "jdtqqp2body4", "jdtqqp2fbbody4", "jdtqqp3body4", "jdtqqp3fbbody4", "jdtqqp4body4", "jdtqcjybody4", "jdtqcjbody4", "jdtqcjcsbody4", "jdtqrwbody4", "jdtqspbody4", "jdtqspwcbody4", "jdtqspwcfbbody4", "jdtqqdbody4", "jdtqqdfbbody4", "jdtqqdwcbody4", "jdtqqdwcfbbody4", "jdtqtqbody4", "jdtqtqwcbody4", "jdtqtqwcfbbody4", "jdtqxfwcbody4", "jdtqxfwcfbbody4", "jdtqcfybody4", "jdtqcf1body4", "jdtqcf1fbbody4", "jdtqcf2body4", "jdtqcf2fbbody4", "jdtqcf3body4", "jdtqcf3fbbody4", "jdtqcf4body4", "jdtqcf4fbbody4", "jdtqcf5body4", "jdtqcf5fbbody4", "jdtqjcybody4", "jdtqjcabody4", "jdtqjcbbody4", "jdtqjclqbody4", "jdtquserbody5", "jdtqcoinbody5", "jdtqqpbody5", "jdtqqp1body5", "jdtqqp1fbbody5", "jdtqqp2body5", "jdtqqp2fbbody5", "jdtqqp3body5", "jdtqqp3fbbody5", "jdtqqp4body5", "jdtqcjybody5", "jdtqcjbody5", "jdtqcjcsbody5", "jdtqrwbody5", "jdtqspbody5", "jdtqspwcbody5", "jdtqspwcfbbody5", "jdtqqdbody5", "jdtqqdfbbody5", "jdtqqdwcbody5", "jdtqqdwcfbbody5", "jdtqtqbody5", "jdtqtqwcbody5", "jdtqtqwcfbbody5", "jdtqxfwcbody5", "jdtqxfwcfbbody5", "jdtqcfybody5", "jdtqcf1body5", "jdtqcf1fbbody5", "jdtqcf2body5", "jdtqcf2fbbody5", "jdtqcf3body5", "jdtqcf3fbbody5", "jdtqcf4body5", "jdtqcf4fbbody5", "jdtqcf5body5", "jdtqcf5fbbody5", "jdtqjcybody5", "jdtqjcabody5", "jdtqjcbbody5", "jdtqjclqbody5", "jdtquserbody6", "jdtqcoinbody6", "jdtqqpbody6", "jdtqqp1body6", "jdtqqp1fbbody6", "jdtqqp2body6", "jdtqqp2fbbody6", "jdtqqp3body6", "jdtqqp3fbbody6", "jdtqqp4body6", "jdtqcjybody6", "jdtqcjbody6", "jdtqcjcsbody6", "jdtqrwbody6", "jdtqspbody6", "jdtqspwcbody6", "jdtqspwcfbbody6", "jdtqqdbody6", "jdtqqdfbbody6", "jdtqqdwcbody6", "jdtqqdwcfbbody6", "jdtqtqbody6", "jdtqtqwcbody6", "jdtqtqwcfbbody6", "jdtqxfwcbody6", "jdtqxfwcfbbody6", "jdtqcfybody6", "jdtqcf1body6", "jdtqcf1fbbody6", "jdtqcf2body6", "jdtqcf2fbbody6", "jdtqcf3body6", "jdtqcf3fbbody6", "jdtqcf4body6", "jdtqcf4fbbody6", "jdtqcf5body6", "jdtqcf5fbbody6", "jdtqjcybody6", "jdtqjcabody6", "jdtqjcbbody6", "jdtqjclqbody6", "jdtquserbody7", "jdtqcoinbody7", "jdtqqpbody7", "jdtqqp1body7", "jdtqqp1fbbody7", "jdtqqp2body7", "jdtqqp2fbbody7", "jdtqqp3body7", "jdtqqp3fbbody7", "jdtqqp4body7", "jdtqcjybody7", "jdtqcjbody7", "jdtqcjcsbody7", "jdtqrwbody7", "jdtqspbody7", "jdtqspwcbody7", "jdtqspwcfbbody7", "jdtqqdbody7", "jdtqqdfbbody7", "jdtqqdwcbody7", "jdtqqdwcfbbody7", "jdtqtqbody7", "jdtqtqwcbody7", "jdtqtqwcfbbody7", "jdtqxfwcbody7", "jdtqxfwcfbbody7", "jdtqcfybody7", "jdtqcf1body7", "jdtqcf1fbbody7", "jdtqcf2body7", "jdtqcf2fbbody7", "jdtqcf3body7", "jdtqcf3fbbody7", "jdtqcf4body7", "jdtqcf4fbbody7", "jdtqcf5body7", "jdtqcf5fbbody7", "jdtqjcybody7", "jdtqjcabody7", "jdtqjcbbody7", "jdtqjclqbody7", "jdtquserbody8", "jdtqcoinbody8", "jdtqqpbody8", "jdtqqp1body8", "jdtqqp1fbbody8", "jdtqqp2body8", "jdtqqp2fbbody8", "jdtqqp3body8", "jdtqqp3fbbody8", "jdtqqp4body8", "jdtqcjybody8", "jdtqcjbody8", "jdtqcjcsbody8", "jdtqrwbody8", "jdtqspbody8", "jdtqspwcbody8", "jdtqspwcfbbody8", "jdtqqdbody8", "jdtqqdfbbody8", "jdtqqdwcbody8", "jdtqqdwcfbbody8", "jdtqtqbody8", "jdtqtqwcbody8", "jdtqtqwcfbbody8", "jdtqxfwcbody8", "jdtqxfwcfbbody8", "jdtqcfybody8", "jdtqcf1body8", "jdtqcf1fbbody8", "jdtqcf2body8", "jdtqcf2fbbody8", "jdtqcf3body8", "jdtqcf3fbbody8", "jdtqcf4body8", "jdtqcf4fbbody8", "jdtqcf5body8", "jdtqcf5fbbody8", "jdtqjcybody8", "jdtqjcabody8", "jdtqjcbbody8", "jdtqjclqbody8", "jdtquserbody9", "jdtqcoinbody9", "jdtqqpbody9", "jdtqqp1body9", "jdtqqp1fbbody9", "jdtqqp2body9", "jdtqqp2fbbody9", "jdtqqp3body9", "jdtqqp3fbbody9", "jdtqqp4body9", "jdtqcjybody9", "jdtqcjbody9", "jdtqcjcsbody9", "jdtqrwbody9", "jdtqspbody9", "jdtqspwcbody9", "jdtqspwcfbbody9", "jdtqqdbody9", "jdtqqdfbbody9", "jdtqqdwcbody9", "jdtqqdwcfbbody9", "jdtqtqbody9", "jdtqtqwcbody9", "jdtqtqwcfbbody9", "jdtqxfwcbody9", "jdtqxfwcfbbody9", "jdtqcfybody9", "jdtqcf1body9", "jdtqcf1fbbody9", "jdtqcf2body9", "jdtqcf2fbbody9", "jdtqcf3body9", "jdtqcf3fbbody9", "jdtqcf4…jdtqcf3fbbody12", "jdtqcf4body12", "jdtqcf4fbbody12", "jdtqcf5body12", "jdtqcf5fbbody12", "jdtqjcybody12", "jdtqjcabody12", "jdtqjcbbody12", "jdtqjclqbody12", "jdtquserbody13", "jdtqcoinbody13", "jdtqqpbody13", "jdtqqp1body13", "jdtqqp1fbbody13", "jdtqqp2body13", "jdtqqp2fbbody13", "jdtqqp3body13", "jdtqqp3fbbody13", "jdtqqp4body13", "jdtqcjybody13", "jdtqcjbody13", "jdtqcjcsbody13", "jdtqrwbody13", "jdtqspbody13", "jdtqspwcbody13", "jdtqspwcfbbody13", "jdtqqdbody13", "jdtqqdfbbody13", "jdtqqdwcbody13", "jdtqqdwcfbbody13", "jdtqtqbody13", "jdtqtqwcbody13", "jdtqtqwcfbbody13", "jdtqxfwcbody13", "jdtqxfwcfbbody13", "jdtqcfybody13", "jdtqcf1body13", "jdtqcf1fbbody13", "jdtqcf2body13", "jdtqcf2fbbody13", "jdtqcf3body13", "jdtqcf3fbbody13", "jdtqcf4body13", "jdtqcf4fbbody13", "jdtqcf5body13", "jdtqcf5fbbody13", "jdtqjcybody13", "jdtqjcabody13", "jdtqjcbbody13", "jdtqjclqbody13", "jdtquserbody14", "jdtqcoinbody14", "jdtqqpbody14", "jdtqqp1body14", "jdtqqp1fbbody14", "jdtqqp2body14", "jdtqqp2fbbody14", "jdtqqp3body14", "jdtqqp3fbbody14", "jdtqqp4body14", "jdtqcjybody14", "jdtqcjbody14", "jdtqcjcsbody14", "jdtqrwbody14", "jdtqspbody14", "jdtqspwcbody14", "jdtqspwcfbbody14", "jdtqqdbody14", "jdtqqdfbbody14", "jdtqqdwcbody14", "jdtqqdwcfbbody14", "jdtqtqbody14", "jdtqtqwcbody14", "jdtqtqwcfbbody14", "jdtqxfwcbody14", "jdtqxfwcfbbody14", "jdtqcfybody14", "jdtqcf1body14", "jdtqcf1fbbody14", "jdtqcf2body14", "jdtqcf2fbbody14", "jdtqcf3body14", "jdtqcf3fbbody14", "jdtqcf4body14", "jdtqcf4fbbody14", "jdtqcf5body14", "jdtqcf5fbbody14", "jdtqjcybody14", "jdtqjcabody14", "jdtqjcbbody14", "jdtqjclqbody14", "jdtquserbody15", "jdtqcoinbody15", "jdtqqpbody15", "jdtqqp1body15", "jdtqqp1fbbody15", "jdtqqp2body15", "jdtqqp2fbbody15", "jdtqqp3body15", "jdtqqp3fbbody15", "jdtqqp4body15", "jdtqcjybody15", "jdtqcjbody15", "jdtqcjcsbody15", "jdtqrwbody15", "jdtqspbody15", "jdtqspwcbody15", "jdtqspwcfbbody15", "jdtqqdbody15", "jdtqqdfbbody15", "jdtqqdwcbody15", "jdtqqdwcfbbody15", "jdtqtqbody15", "jdtqtqwcbody15", "jdtqtqwcfbbody15", "jdtqxfwcbody15", "jdtqxfwcfbbody15", "jdtqcfybody15", "jdtqcf1body15", "jdtqcf1fbbody15", "jdtqcf2body15", "jdtqcf2fbbody15", "jdtqcf3body15", "jdtqcf3fbbody15", "jdtqcf4body15", "jdtqcf4fbbody15", "jdtqcf5body15", "jdtqcf5fbbody15", "jdtqjcybody15", "jdtqjcabody15", "jdtqjcbbody15", "jdtqjclqbody15", "jdtquserbody16", "jdtqcoinbody16", "jdtqqpbody16", "jdtqqp1body16", "jdtqqp1fbbody16", "jdtqqp2body16", "jdtqqp2fbbody16", "jdtqqp3body16", "jdtqqp3fbbody16", "jdtqqp4body16", "jdtqcjybody16", "jdtqcjbody16", "jdtqcjcsbody16", "jdtqrwbody16", "jdtqspbody16", "jdtqspwcbody16", "jdtqspwcfbbody16", "jdtqqdbody16", "jdtqqdfbbody16", "jdtqqdwcbody16", "jdtqqdwcfbbody16", "jdtqtqbody16", "jdtqtqwcbody16", "jdtqtqwcfbbody16", "jdtqxfwcbody16", "jdtqxfwcfbbody16", "jdtqcfybody16", "jdtqcf1body16", "jdtqcf1fbbody16", "jdtqcf2body16", "jdtqcf2fbbody16", "jdtqcf3body16", "jdtqcf3fbbody16", "jdtqcf4body16", "jdtqcf4fbbody16", "jdtqcf5body16", "jdtqcf5fbbody16", "jdtqjcybody16", "jdtqjcabody16", "jdtqjcbbody16", "jdtqjclqbody16", "jdtquserbody17", "jdtqcoinbody17", "jdtqqpbody17", "jdtqqp1body17", "jdtqqp1fbbody17", "jdtqqp2body17", "jdtqqp2fbbody17", "jdtqqp3body17", "jdtqqp3fbbody17", "jdtqqp4body17", "jdtqcjybody17", "jdtqcjbody17", "jdtqcjcsbody17", "jdtqrwbody17", "jdtqspbody17", "jdtqspwcbody17", "jdtqspwcfbbody17", "jdtqqdbody17", "jdtqqdfbbody17", "jdtqqdwcbody17", "jdtqqdwcfbbody17", "jdtqtqbody17", "jdtqtqwcbody17", "jdtqtqwcfbbody17", "jdtqxfwcbody17", "jdtqxfwcfbbody17", "jdtqcfybody17", "jdtqcf1body17", "jdtqcf1fbbody17", "jdtqcf2body17", "jdtqcf2fbbody17", "jdtqcf3body17", "jdtqcf3fbbody17", "jdtqcf4body17", "jdtqcf4fbbody17", "jdtqcf5body17", "jdtqcf5fbbody17", "jdtqjcybody17", "jdtqjcabody17", "jdtqjcbbody17", "jdtqjclqbody17", "jdtquserbody18", "jdtqcoinbody18", "jdtqqpbody18", "jdtqqp1body18", "jdtqqp1fbbody18", "jdtqqp2body18", "jdtqqp2fbbody18", "jdtqqp3body18", "jdtqqp3fbbody18", "jdtqqp4body18", "jdtqcjybody18", "jdtqcjbody18", "jdtqcjcsbody18", "jdtqrwbody18", "jdtqspbody18", "jdtqspwcbody18", "jdtqspwcfbbody18", "jdtqqdbody18", "jdtqqdfbbody18", "jdtqqdwcbody18", "jdtqqdwcfbbody18", "jdtqtqbody18", "jdtqtqwcbody18", "jdtqtqwcfbbody18", "jdtqxfwcbody18", "jdtqxfwcfbbody18", "jdtqcfybody18", "jdtqcf1body18", "jdtqcf1fbbody18", "jdtqcf2body18", "jdtqcf2fbbody18", "jdtqcf3body18", "jdtqcf3fbbody18", "jdtqcf4body18", "jdtqcf4fbbody18", "jdtqcf5body18", "jdtqcf5fbbody18", "jdtqjcybody18", "jdtqjcabody18", "jdtqjcbbody18", "jdtqjclqbody18", "jdtquserbody19", "jdtqcoinbody19", "jdtqqpbody19", "jdtqqp1body19", "jdtqqp1fbbody19", "jdtqqp2body19", "jdtqqp2fbbody19", "jdtqqp3body19", "jdtqqp3fbbody19", "jdtqqp4body19", "jdtqcjybody19", "jdtqcjbody19", "jdtqcjcsbody19", "jdtqrwbody19", "jdtqspbody19", "jdtqspwcbody19", "jdtqspwcfbbody19", "jdtqqdbody19", "jdtqqdfbbody19", "jdtqqdwcbody19", "jdtqqdwcfbbody19", "jdtqtqbody19", "jdtqtqwcbody19", "jdtqtqwcfbbody19", "jdtqxfwcbody19", "jdtqxfwcfbbody19", "jdtqcfybody19", "jdtqcf1body19", "jdtqcf1fbbody19", "jdtqcf2body19", "jdtqcf2fbbody19", "jdtqcf3body19", "jdtqcf3fbbody19", "jdtqcf4body19", "jdtqcf4fbbody19", "jdtqcf5body19", "jdtqcf5fbbody19", "jdtqjcybody19", "jdtqjcabody19", "jdtqjcbbody19", "jdtqjclqbody19", "jdtquserbody20", "jdtqcoinbody20", "jdtqqpbody20", "jdtqqp1body20", "jdtqqp1fbbody20", "jdtqqp2body20", "jdtqqp2fbbody20", "jdtqqp3body20", "jdtqqp3fbbody20", "jdtqqp4body20", "jdtqcjybody20", "jdtqcjbody20", "jdtqcjcsbody20", "jdtqrwbody20", "jdtqspbody20", "jdtqspwcbody20", "jdtqspwcfbbody20", "jdtqqdbody20", "jdtqqdfbbody20", "jdtqqdwcbody20", "jdtqqdwcfbbody20", "jdtqtqbody20", "jdtqtqwcbody20", "jdtqtqwcfbbody20", "jdtqxfwcbody20", "jdtqxfwcfbbody20", "jdtqcfybody20", "jdtqcf1body20", "jdtqcf1fbbody20", "jdtqcf2body20", "jdtqcf2fbbody20", "jdtqcf3body20", "jdtqcf3fbbody20", "jdtqcf4body20", "jdtqcf4fbbody20", "jdtqcf5body20", "jdtqcf5fbbody20", "jdtqjcybody20", "jdtqjcabody20", "jdtqjcbbody20", "jdtqjclqbody20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "jdtqSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "jdtqCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "jdtqXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "jdtqCK",
+                    "name": "CK获取控制",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭, 1用户名, 2账户信息, 3首页气泡, 4气泡1, 5气泡1翻倍, 6气泡2, 7气泡2翻倍, 8气泡3, 9气泡3翻倍, 可设置0-41, 具体使用查看js说明"
+                },
+                {
+                    "id": "jdtqnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "jdtqnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "jdtqMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js"
+        },
+        {
+            "id": "yqnb",
+            "name": "易趣牛帮APP",
+            "keys": ["yqnbheader", "yqnbbody", "yqnbheader2", "yqnbbody2", "yqnbheader3", "yqnbbody3", "yqnbheader4", "yqnbbody4", "yqnbheader5", "yqnbbody5", "yqnbheader6", "yqnbbody6", "yqnbheader7", "yqnbbody7", "yqnbheader8", "yqnbbody8", "yqnbheader9", "yqnbbody9", "yqnbheader10", "yqnbbody10", "yqnbheader11", "yqnbbody11", "yqnbheader12", "yqnbbody12", "yqnbheader13", "yqnbbody13", "yqnbheader14", "yqnbbody14", "yqnbheader15", "yqnbbody15", "yqnbheader16", "yqnbbody16", "yqnbheader17", "yqnbbody17", "yqnbheader18", "yqnbbody18", "yqnbheader19", "yqnbbody19", "yqnbheader20", "yqnbbody20"],
+            "author": "@ziye",
+            "settings": [{
+                "id": "yqnbSuffix",
+                "name": "当前账号",
+                "val": "1",
+                "type": "number",
+                "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+            }, {
+                "id": "yqnbCount",
+                "name": "账号个数",
+                "val": "1",
+                "type": "number",
+                "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+            }, {
+                "id": "yqnbXH",
+                "name": "循环获取CK",
+                "val": "0",
+                "type": "number",
+                "desc": "0关闭 1开启,默认关闭"
+            }, {
+                "id": "yqnbXYZ",
+                "name": "运行概率",
+                "val": "100",
+                "type": "number",
+                "desc": "0不运行 可设置0-100,默认百分百"
+            }, {
+                "id": "yqnbCASH",
+                "name": "提现金额",
+                "val": "0",
+                "type": "number",
+                "desc": "0关闭 可设置0 6 10 20 888 ，设置888从大到小循环提现"
+            }, {
+                "id": "yqnbName",
+                "name": "真实姓名",
+                "val": "",
+                "type": "text",
+                "desc": "0关闭 1开启,默认关闭"
+            }, {
+                "id": "yqnbAlipay",
+                "name": "支付宝号",
+                "val": "",
+                "type": "number",
+                "desc": "0关闭 1开启,默认关闭"
+            }, {
+                "id": "yqnbnotifyttt",
+                "name": "推送控制",
+                "val": "1",
+                "type": "number",
+                "desc": "0关闭，1推送,默认12点以及23点推送"
+            }, {
+                "id": "yqnbnotifyInterval",
+                "name": "通知控制",
+                "val": "2",
+                "type": "number",
+                "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+            }, {
+                "id": "yqnbMinutes",
+                "name": "推送-通知 分钟控制",
+                "val": "10",
+                "type": "number",
+                "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+            }],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yqnb.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yqnb.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yqnb.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/yqnb.js"
+        },
+        {
+            "id": "tls",
+            "name": "特仑苏小程序",
+            "keys": ["tlsurl", "tlsheader", "tlsurl2", "tlsheader2", "tlsurl3", "tlsheader3", "tlsurl4", "tlsheader4", "tlsurl5", "tlsheader5", "tlsurl6", "tlsheader6", "tlsurl7", "tlsheader7", "tlsurl8", "tlsheader8", "tlsurl9", "tlsheader9", "tlsurl10", "tlsheader10", "tlsurl11", "tlsheader11", "tlsurl12", "tlsheader12", "tlsurl13", "tlsheader13", "tlsurl14", "tlsheader14", "tlsurl15", "tlsheader15", "tlsurl16", "tlsheader16", "tlsurl17", "tlsheader17", "tlsurl18", "tlsheader18", "tlsurl19", "tlsheader19", "tlsurl20", "tlsheader20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "tlsSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                }, {
+                    "id": "tlsCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                }, {
+                    "id": "tlsXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                }, {
+                    "id": "tlsnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                }, {
+                    "id": "tlsnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                }, {
+                    "id": "tlsMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }, {
+                    "id": "tlshyidA",
+                    "name": "好友A",
+                    "val": "64926",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidB",
+                    "name": "好友B",
+                    "val": "70405",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidC",
+                    "name": "好友C",
+                    "val": "73261",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidD",
+                    "name": "好友D",
+                    "val": "98692",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidE",
+                    "name": "好友E",
+                    "val": "98825",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidF",
+                    "name": "好友F",
+                    "val": "98860",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidG",
+                    "name": "好友G",
+                    "val": "98910",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidH",
+                    "name": "好友H",
+                    "val": "114043",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                },
+                {
+                    "id": "tlshyidI",
+                    "name": "好友I",
+                    "val": "114736",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidJ",
+                    "name": "好友J",
+                    "val": "112833",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidK",
+                    "name": "好友K",
+                    "val": "113329",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidL",
+                    "name": "好友L",
+                    "val": "109172",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidM",
+                    "name": "好友M",
+                    "val": "364156",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidN",
+                    "name": "好友N",
+                    "val": "147562",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidO",
+                    "name": "好友O",
+                    "val": "161866",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidP",
+                    "name": "好友P",
+                    "val": "109012",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidQ",
+                    "name": "好友Q",
+                    "val": "109377",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidR",
+                    "name": "好友R",
+                    "val": "397595",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidS",
+                    "name": "好友S",
+                    "val": "114992",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidT",
+                    "name": "好友T",
+                    "val": "117104",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidU",
+                    "name": "好友U",
+                    "val": "122263",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidV",
+                    "name": "好友V",
+                    "val": "141969",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidW",
+                    "name": "好友W",
+                    "val": "327211",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidX",
+                    "name": "好友X",
+                    "val": "117972",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidY",
+                    "name": "好友Y",
+                    "val": "161684",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidZ",
+                    "name": "好友Z",
+                    "val": "109566",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidA2",
+                    "name": "好友A2",
+                    "val": "137291",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidB2",
+                    "name": "好友B2",
+                    "val": "326900",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidC2",
+                    "name": "好友C2",
+                    "val": "1502164",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidD2",
+                    "name": "好友D2",
+                    "val": "109954",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidE2",
+                    "name": "好友E2",
+                    "val": "1949333",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidF2",
+                    "name": "好友F2",
+                    "val": "134164",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidG2",
+                    "name": "好友G2",
+                    "val": "108969",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidH2",
+                    "name": "好友H2",
+                    "val": "119966",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                },
+                {
+                    "id": "tlshyidI2",
+                    "name": "好友I2",
+                    "val": "1073782",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidJ2",
+                    "name": "好友J2",
+                    "val": "8538",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidK2",
+                    "name": "好友K2",
+                    "val": "1152548",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidL2",
+                    "name": "好友L2",
+                    "val": "1401176",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidM2",
+                    "name": "好友M2",
+                    "val": "112736",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidN2",
+                    "name": "好友N2",
+                    "val": "108931",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidO2",
+                    "name": "好友O2",
+                    "val": "157140",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidP2",
+                    "name": "好友P2",
+                    "val": "109584",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidQ2",
+                    "name": "好友Q2",
+                    "val": "110198",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidR2",
+                    "name": "好友R2",
+                    "val": "1391232",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidS2",
+                    "name": "好友S2",
+                    "val": "244904",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidT2",
+                    "name": "好友T2",
+                    "val": "1502143",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidU2",
+                    "name": "好友U2",
+                    "val": "114055",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidV2",
+                    "name": "好友V2",
+                    "val": "108955",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidW2",
+                    "name": "好友W2",
+                    "val": "109132",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidX2",
+                    "name": "好友X2",
+                    "val": "131274",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidY2",
+                    "name": "好友Y2",
+                    "val": "124551",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidZ2",
+                    "name": "好友Z2",
+                    "val": "216461",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidA3",
+                    "name": "好友A3",
+                    "val": "135699",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidB3",
+                    "name": "好友B3",
+                    "val": "108899",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidC3",
+                    "name": "好友C3",
+                    "val": "1073100",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidD3",
+                    "name": "好友D3",
+                    "val": "182480",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidE3",
+                    "name": "好友E3",
+                    "val": "109195",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidF3",
+                    "name": "好友F3",
+                    "val": "890937",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidG3",
+                    "name": "好友G3",
+                    "val": "7364586",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidH3",
+                    "name": "好友H3",
+                    "val": "4494420",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                },
+                {
+                    "id": "tlshyidI3",
+                    "name": "好友I3",
+                    "val": "117203",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidJ3",
+                    "name": "好友J3",
+                    "val": "3721670",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidK3",
+                    "name": "好友K3",
+                    "val": "7362982",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidL3",
+                    "name": "好友L3",
+                    "val": "113096",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidM3",
+                    "name": "好友M3",
+                    "val": "479659",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidN3",
+                    "name": "好友N3",
+                    "val": "141775",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidO3",
+                    "name": "好友O3",
+                    "val": "127100",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidP3",
+                    "name": "好友P3",
+                    "val": "2664528",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidQ3",
+                    "name": "好友Q3",
+                    "val": "2698603",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidR3",
+                    "name": "好友R3",
+                    "val": "109980",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidS3",
+                    "name": "好友S3",
+                    "val": "127290",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidT3",
+                    "name": "好友T3",
+                    "val": "109267",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidU3",
+                    "name": "好友U3",
+                    "val": "2545894",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidV3",
+                    "name": "好友V3",
+                    "val": "334198",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidW3",
+                    "name": "好友W3",
+                    "val": "114741",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidX3",
+                    "name": "好友X3",
+                    "val": "219116",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidY3",
+                    "name": "好友Y3",
+                    "val": "2155005",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }, {
+                    "id": "tlshyidZ3",
+                    "name": "好友Z3",
+                    "val": "118079",
+                    "type": "number",
+                    "desc": "默认内置，自行修改"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tls.js"
+        }, {
+            "id": "shzx",
+            "name": "搜狐资讯APP",
+            "keys": ["shzxbody", "shzxbody2", "shzxbody3", "shzxbody4", "shzxbody5", "shzxbody6", "shzxbody7", "shzxbody8", "shzxbody9", "shzxbody10", "shzxbody11", "shzxbody12", "shzxbody13", "shzxbody14", "shzxbody15", "shzxbody16", "shzxbody17", "shzxbody18", "shzxbody19", "shzxbody20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "shzxSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "shzxCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "shzxXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "shzxXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "shzxnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "shzxnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "shzxMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shzx.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shzx.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shzx.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shzx.js"
+        }, {
+            "id": "xm",
+            "name": "小芒APP",
+            "keys": ["xmurl", "xmurl2", "xmurl3", "xmurl4", "xmurl5", "xmurl6", "xmurl7", "xmurl8", "xmurl9", "xmurl10", "xmurl11", "xmurl12", "xmurl13", "xmurl14", "xmurl15", "xmurl16", "xmurl17", "xmurl18", "xmurl19", "xmurl20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "xmSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "xmCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "xmXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "xmXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "xmnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "xmnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "xmMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xm.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xm.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xm.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/xm.js"
+        },
+        {
+            "id": "dsj",
+            "name": "电视家APP",
+            "keys": ["dsjheader", "dsjtx", "dsjheader2", "dsjtx2", "dsjheader3", "dsjtx3", "dsjheader4", "dsjtx4", "dsjheader5", "dsjtx5", "dsjheader6", "dsjtx6", "dsjheader7", "dsjtx7", "dsjheader8", "dsjtx8", "dsjheader9", "dsjtx9", "dsjheader10", "dsjtx10", "dsjheader11", "dsjtx11", "dsjheader12", "dsjtx12", "dsjheader13", "dsjtx13", "dsjheader14", "dsjtx14", "dsjheader15", "dsjtx15", "dsjheader16", "dsjtx16", "dsjheader17", "dsjtx17", "dsjheader18", "dsjtx18", "dsjheader19", "dsjtx19", "dsjheader20", "dsjtx20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "dsjSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "dsjCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "dsjXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "dsjZDTX",
+                    "name": "自动提现",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "可设置0,1,5,10,20,25,30,50,99  0不提现 1随机提现 99由上到下所有提现 其他固定提现"
+                },
+                {
+                    "id": "dsjZDTXS",
+                    "name": "自动提现2",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "可设置0,1,2,5,10,20,25,30,50,99,100  0不提现  99由上到下所有提现 其他固定提现 新版"
+                },
+                {
+                    "id": "dsjXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "dsjTXTX",
+                    "name": "余额提醒",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0不提醒 可设置0,5,10,20,25,30,50,100"
+                },
+                {
+                    "id": "dsjnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "dsjnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "dsjMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js"
+        },
+        {
+            "id": "jddsh",
+            "name": "京东待收货",
+            "keys": ["jddshbody", "jddshbody2", "jddshbody3", "jddshbody4", "jddshbody5", "jddshbody6", "jddshbody7", "jddshbody8", "jddshbody9", "jddshbody10", "jddshbody11", "jddshbody12", "jddshbody13", "jddshbody14", "jddshbody15", "jddshbody16", "jddshbody17", "jddshbody18", "jddshbody19", "jddshbody20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "jddshSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "jddshCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "jddshXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "jddshXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "jddshnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "jddshnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "jddshMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jddsh.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jddsh.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jddsh.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jddsh.js"
+        }, {
+            "id": "rl",
+            "name": "燃旅视频",
+            "keys": ["rlurl", "rlurl2", "rlurl3", "rlurl4", "rlurl5", "rlurl6", "rlurl7", "rlurl8", "rlurl9", "rlurl10", "rlurl11", "rlurl12", "rlurl13", "rlurl14", "rlurl15", "rlurl16", "rlurl17", "rlurl18", "rlurl19", "rlurl20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "rlSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "rlCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "rlXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "rlXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "rlnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "rlnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "rlMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.js"
+        }, {
+            "id": "znxq",
+            "name": "臻浓星球",
+            "keys": ["znxqheader", "znxqheader2", "znxqheader3", "znxqheader4", "znxqheader5", "znxqheader6", "znxqheader7", "znxqheader8", "znxqheader9", "znxqheader10", "znxqheader11", "znxqheader12", "znxqheader13", "znxqheader14", "znxqheader15", "znxqheader16", "znxqheader17", "znxqheader18", "znxqheader19", "znxqheader20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "znxqSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "znxqCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "znxqXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "znxqDH",
+                    "name": "兑换商品",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 13牛奶,16电饼档,17汤蒸锅,18篮球,19杯子,20筷子,21三件套,22工具套"
+                },
+                {
+                    "id": "znxqXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "znxqnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "znxqnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "znxqMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/znxq.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/znxq.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/znxq.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/znxq.js"
+        }, {
+            "id": "txwzq",
+            "name": "微证券",
+            "keys": ["txwzqck", "txzxgck", "txwzqck2", "txzxgck2", "txwzqck3", "txzxgck3", "txwzqck4", "txzxgck4", "txwzqck5", "txzxgck5", "txwzqck6", "txzxgck6", "txwzqck7", "txzxgck7", "txwzqck8", "txzxgck8", "txwzqck9", "txzxgck9", "txwzqck10", "txzxgck10", "txwzqck11", "txzxgck11", "txwzqck12", "txzxgck12", "txwzqck13", "txzxgck13", "txwzqck14", "txzxgck14", "txwzqck15", "txzxgck15", "txwzqck16", "txzxgck16", "txwzqck17", "txzxgck17", "txwzqck18", "txzxgck18", "txwzqck19", "txzxgck19", "txwzqck20", "txzxgck20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "txwzqSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "txwzqCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "txwzqCASH",
+                    "name": "提现选择",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "可设置0 1 5 默认0不提现"
+                },
+                {
+                    "id": "txwzqXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "txwzqXYZ",
+                    "name": "执行概率",
+                    "val": "100",
+                    "type": "number",
+                    "desc": "0不执行 可设置0-100,默认百分百"
+                },
+                {
+                    "id": "txwzqnotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "txwzqnotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "txwzqMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.js"
+        }, {
+            "id": "tcdb",
+            "name": "同城夺宝",
+            "keys": ["tcdbheader", "tcdbheader2", "tcdbheader3", "tcdbheader4", "tcdbheader5", "tcdbheader6", "tcdbheader7", "tcdbheader8", "tcdbheader9", "tcdbheader10", "tcdbheader11", "tcdbheader12", "tcdbheader13", "tcdbheader14", "tcdbheader15", "tcdbheader16", "tcdbheader17", "tcdbheader18", "tcdbheader19", "tcdbheader20"],
+            "author": "@ziye",
+            "settings": [{
+                "id": "tcdbSuffix",
+                "name": "当前账号",
+                "val": "1",
+                "type": "number",
+                "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+            }, {
+                "id": "tcdbCount",
+                "name": "账号个数",
+                "val": "1",
+                "type": "number",
+                "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+            }, {
+                "id": "tcdbXYZ",
+                "name": "运行概率",
+                "val": "100",
+                "type": "number",
+                "desc": "0关闭，1打开，默认关闭"
+            }, {
+                "id": "tcdbXH",
+                "name": "循环获取ck",
+                "val": "0",
+                "type": "number",
+                "desc": "0关闭，1打开，默认关闭"
+            }, {
+                "id": "tcdbTX",
+                "name": "自动提现",
+                "val": "100",
+                "type": "number",
+                "desc": "0关闭，1打开，默认关闭"
+            }, {
+                "id": "tcdbnotifyttt",
+                "name": "推送控制",
+                "val": "1",
+                "type": "number",
+                "desc": "0关闭，1推送,默认12点以及23点推送"
+            }, {
+                "id": "tcdbnotifyInterval",
+                "name": "通知控制",
+                "val": "2",
+                "type": "number",
+                "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+            }, {
+                "id": "tcdbMinutes",
+                "name": "推送-通知 分钟控制",
+                "val": "10",
+                "type": "number",
+                "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+            }],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tcdb.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tcdb.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tcdb.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/tcdb.js"
+        }
+    ]
+}
