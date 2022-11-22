@@ -35,7 +35,7 @@ hostname=github.com,
 ############## 圈x
 
 #githubAC获取body
-https:\/\/github\.com\/* url script-request-body https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/githubAC.js   
+https:\/\/github\.com\/* url script-request-body https://raw.githubusercontent.com/lko1998/QWER/main/script/githubAC.js   
 
 ############## loon
 #githubAC获取body
