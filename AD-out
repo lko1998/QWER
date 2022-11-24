@@ -1,0 +1,19 @@
+
+hostname = m.iqiyi.com, z1.m1907.cn, m.youku.com, m.v.qq.com, m.bilibili.com, testflight.apple.com, *.baidu.com, weixin110.qq.com
+
+# 爱奇艺
+(^https?:\/\/m\.iqiyi\.com\/v_.*) url 307 https://z1.m1907.cn/?jx=$1
+# 优酷视频
+(^https?:\/\/m\.youku\.com\/.*) url 307 https://z1.m1907.cn/?jx=$1
+# 腾讯视频
+(^https?:\/\/m\.v\.qq\.com\/x\/(m\/)?play.*) url 307 https://z1.m1907.cn/?jx=$1
+# 哔哩哔哩
+(^https?:\/\/m\.bilibili\.com\/bangumi\/play\/.*) url 307 https://z1.m1907.cn/?jx=$1
+#微信屏蔽跳转
+#在微信中打开淘宝等被屏蔽链接，点击 Surge/QuantumultX 通知跳转到 Safari 或淘宝 App
+^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/weixin110.js
+# 强制跳转百度UA    *.baidu.com
+^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com url request-header (\r\n)User-Agent:.+iPhone.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
+
+#国区TF无法下载已下架app规则
+^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*", request-body storefrontId" : "143441-1,29",
