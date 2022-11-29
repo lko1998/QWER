@@ -1,2 +1,0 @@
-# QWER
-script
