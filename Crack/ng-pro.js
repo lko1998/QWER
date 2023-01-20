@@ -7,7 +7,7 @@
 #本地脚本
 
 #恢复内购
-https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body ng-pro.js
+https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/lko1998/QWER/main/Crack/ng-pro.js
 
 MITM = buy.itunes.apple.com
 
