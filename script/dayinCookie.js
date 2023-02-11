@@ -18,10 +18,10 @@ const $ = Env("CK导入导出");
 const Count=1
 
 //设置1，导入CK
-const DR=1
+const DR=0
 
 //设置1，导出CK
-const DC=0
+const DC=1
 
 //0可批量导入ck,  1清空ck  2单独导入ck
 const QK=0
@@ -106,7 +106,7 @@ const jsK=''
 const jsL=''
 
 //开启打印则设置为1
-const jsAA=0
+const jsAA=1
 const jsBB=0
 const jsCC=0  
 const jsDD=0
