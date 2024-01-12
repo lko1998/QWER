@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https:\/\/qiye\.gaoding\.com\/api\/(structure\/company\/current|ccm\/editors\/risk_materials) url script-response-body gdsj.js
+^https:\/\/qiye\.gaoding\.com\/api\/(structure\/company\/current|ccm\/editors\/risk_materials) url script-response-body https://github.com/lko1998/QWER/raw/main/script/gdsj.js
 
 
 [mitm]
